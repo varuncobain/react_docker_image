@@ -1,0 +1,5 @@
+npx create-react-app core   #to create the react app.core is the name.
+
+docker build --tag react .  #to build the docker file created with give tag name . from the folder containing docker file. 
+
+docker run --publish 3000:3000 react    #to run the docker container from the image we created. binding host port 3000 to conatiner port 3000
